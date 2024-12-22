@@ -1,0 +1,29 @@
+table {
+	border-collapse: collapse;
+}
+
+th {
+	padding: 8px;
+	font-size: 125%;
+}
+
+td {
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#price td {
+	text-align: left;
+}
+
+#in-stock {
+	background-color: limegreen;
+}
+
+#out-stock {
+	background-color: indianred;
+}

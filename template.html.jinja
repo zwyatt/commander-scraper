@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css" />
+<html lang="en">
+<head>
+    <title>Commander Deck Prices</title>
+</head>
+<body>
+    {% for deck in decks %}
+    <table>
+        <tr>
+            <th>{{ deck.set }} - {{ deck.name }}</th>
+        </tr>
+        <tr>
+            <td><b>Store</b></td>
+            <td><b>Price</b></td>
+            <td><b>Stock</b></td>
+        </tr>
+        {% for store_deck in deck.store_decks %}
+        <tr>
+            <td><a href="{{ store_deck.link }}">{{ store_deck.store['name'] }}</a></td>
+            <td id="price">${{ store_deck.price }}</td>
+            {% if store_deck.stock %}
+            <td id="in-stock">In Stock</td>
+            {% else %}
+            <td id="out-stock">Out of Stock</td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    {% endfor %}
+</body>
+</html>
