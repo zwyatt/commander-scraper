@@ -442,7 +442,7 @@ def write_html(decks):
         #         out_stock.append(store_deck)
         # deck.store_decks = in_stock
 
-    with open('output.html', 'w') as f:
+    with open('index.html', 'w') as f:
         f.write(template.render(decks=decks))
 
 
