@@ -1,0 +1,1146 @@
+{
+	"stores": [
+	{
+		"name": "Face to Face Games",
+		"file": "f2f.html",
+		"link": "https://www.facetofacegames.com/",
+		"address": "1398 Danforth Ave., Toronto, Ontario",
+		"page": "https://www.facetofacegames.com/magic/magic-the-gathering-sealed-products/multiplayer-products/?pg=",
+		"html_items": "hawk-results-item__inner",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "hawk-results__hawk-contentTitle",
+		"html_name_tag": "h4",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "retailPrice",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "hawkStock",
+		"html_stock_tag": "span",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "J&J Cards & Collectibles",
+		"file": "jj.html",
+		"link": "https://shop.jjcards.com/",
+		"address": "230 Weber St. N., Waterloo, Ontario",
+		"page": "https://shop.jjcards.com/search.asp?keyword=commander+deck&sortby=0&page=",
+		"html_items": "product-content",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "regular-price",
+		"html_sale_price": "sale-price",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "availability",
+		"html_stock_tag": "span",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "401 Games",
+		"file": "401.html",
+		"link": "https://store.401games.ca/",
+		"address": "431 Yonge St., Toronto, Ontario",
+		"page": "https://store.401games.ca/collections/magic-the-gathering-commander-decks?page=",
+		"html_items": "product-info",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "name",
+		"html_name_tag": "meta",
+		"html_name_attr": "itemprop",
+		"html_name_value": "content",
+		"html_link": "url",
+		"html_link_tag": "meta",
+		"html_link_attr": "itemprop",
+		"html_link_value": "content",
+		"html_price": "price",
+		"html_price_tag": "meta",
+		"html_price_attr": "itemprop",
+		"html_price_value": "content",
+		"html_stock": "availability",
+		"html_stock_tag": "meta",
+		"html_stock_attr": "itemprop",
+		"html_stock_value": "content"
+	},
+	{
+		"name": "Hobbiesville",
+		"file": "hobbies.html",
+		"link": "https://hobbiesville.com",
+		"address": "9 Ossington Ave. Toronto, Ontario",
+		"page": "https://hobbiesville.com/collections/magic-the-gathering-commander-deck",
+		"html_next": "Go to next page",
+		"html_next_tag": "a",
+		"html_next_attr": "aria-label",
+		"html_zap": "needsclick",
+		"html_zap_tag": "*",
+		"html_zap_attr": "class",
+		"html_items": "store-pass-product-info",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "store-pass-product-price",
+		"html_price_tag": "div",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "store-pass-product-cta",
+		"html_stock_tag": "button",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "Level Up Games",
+		"file": "level.html",
+		"link": "https://levelupgames.ca",
+		"address": "#2 2316 Major Mackenzie Drive West, Maple, Ontario",
+		"page": "https://levelupgames.ca/collections/mtg-sealed?page=",
+		"html_items": "productCard__lower",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "productCard__price",
+		"html_price_tag": "p",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "productChip",
+		"html_stock_tag": "li",
+		"html_stock_attr": "class",
+		"html_stock_value": "data-variantavailable"
+	},
+	{
+		"name": "c&c gamebridge",
+		"file": "gamebridge.html",
+		"link": "https://gamebridge.ca",
+		"address": "645 King Street East, Cambridge, Ontario",
+		"page": "https://gamebridge.ca/collections/mtg-sealed-all?page=",
+		"last_page": "12",
+		"html_items": "grid__item",
+		"html_items_tag": "li",
+		"html_items_attr": "class",
+		"html_name": "grid-view-item__title",
+		"html_name_tag": "div",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "product-price__price",
+		"html_sale_price": "product-price__compare-at-price",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "Select variant",
+		"html_stock_tag": "select",
+		"html_stock_attr": "title",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "TKO Toy Co.",
+		"file": "tko.html",
+		"link": "https://tkotoyco.com",
+		"address": "#9 930 Woodlawn Road West, Guelph, Ontario",
+		"page": "https://tkotoyco.com/collections/mtg-sealed?page=",
+		"html_items": "productCard__lower",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "productCard__price",
+		"html_price_tag": "p",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "productChip",
+		"html_stock_tag": "li",
+		"html_stock_attr": "class",
+		"html_stock_value": "data-variantavailable"
+	},
+	{
+		"name": "The Trading Post",
+		"file": "roundtable.html",
+		"link": "https://roundtabletavern.crystalcommerce.com",
+		"address": "32 Essex Street, Guelph, ON",
+		"page": "https://roundtabletavern.crystalcommerce.com/catalog/magic_mtg_sealed_product-preconstructed_decks/13943?filter_by_stock=out-of-stock%253Ffilter_by_stock%253Din-stock&page=",
+		"html_items": "http://schema.org/Product",
+		"html_items_tag": "li",
+		"html_items_attr": "itemtype",
+		"html_name": "name",
+		"html_name_tag": "h4",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "url",
+		"html_link_tag": "a",
+		"html_link_attr": "itemprop",
+		"html_link_value": "href",
+		"html_price": "price",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "variant-qty",
+		"html_stock_tag": "span",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "House of Cards",
+		"file": "house.html",
+		"link": "https://houseofcards.ca",
+		"address": "#101 5660 176a St., Surrey, British Columbia",
+		"page": "https://houseofcards.ca/collections/commander-preconstructed-decks?page=",
+		"html_items": "productCard__lower",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "productCard__price",
+		"html_price_tag": "p",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "productChip",
+		"html_stock_tag": "li",
+		"html_stock_attr": "class",
+		"html_stock_value": "data-variantavailable"
+	},
+	{
+		"name": "Obsidian Games",
+		"file": "obsidian.html",
+		"link": "https://obsidiangames.ca",
+		"address": "#302 2520 53 Ave, Vernon, British Columbia",
+		"page": "https://obsidiangames.ca/collections/mtg-precon-decks?page=",
+		"html_items": "productCard__lower",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "productCard__price",
+		"html_price_tag": "p",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "productChip",
+		"html_stock_tag": "li",
+		"html_stock_attr": "class",
+		"html_stock_value": "data-variantavailable"
+	},
+	{
+		"name": "Wizard Tower",
+		"file": "wizard.html",
+		"link": "https://www.kanatacg.com",
+		"address": "80 Marketplace Ave, Nepean, Ontario",
+		"page": "https://www.kanatacg.com/catalog/magic_sealed_products-commander_decks/318?filter_by_stock=out-of-stock%3Ffilter_by_stock%3Din-stock&page=",
+		"html_items": "http://schema.org/Product",
+		"html_items_tag": "li",
+		"html_items_attr": "itemtype",
+		"html_name": "name",
+		"html_name_tag": "h4",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "url",
+		"html_link_tag": "a",
+		"html_link_attr": "itemprop",
+		"html_link_value": "href",
+		"html_price": "price",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "variant-qty",
+		"html_stock_tag": "span",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "Le Coin de Jeu",
+		"file": "coin.html",
+		"link": "https://www.lecoindujeu.ca",
+		"address": "119-2 Montée Masson, Mascouche, Quebec",
+		"page": "https://www.lecoindujeu.ca/search?filter.p.product_type=MTG+Sealed&page=&q=commander",
+		"html_items": "productitem__container",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "productitem--title",
+		"html_name_tag": "h2",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "price__current",
+		"html_price_tag": "div",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "product-stock-level__badge-text",
+		"html_stock_tag": "div",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "Imaginaire",
+		"file": "imaginaire.html",
+		"link": "https://imaginaire.com",
+		"address": "50 Rideau St., Ottawa, Ontario",
+		"page": "https://imaginaire.com/en/games-and-puzzles/collectible-card-games/magic-the-gathering/decks.html?page=",
+		"html_items": "card",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "product-item-name",
+		"html_name_tag": "h3",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "product-item-link",
+		"html_link_tag": "a",
+		"html_link_attr": "class",
+		"html_link_value": "href",
+		"html_price": "price",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock_flag": "in",
+		"html_stock": "Add to Cart",
+		"html_stock_tag": "button",
+		"html_stock_attr": "title",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "Top Shelf Collection",
+		"file": "shelf.html",
+		"link": "https://topshelfco.ca",
+		"address": "481 North Service Rd West Unit A14, Oakville, Ontario",
+		"page": "https://topshelfco.ca/collections/magic-the-gathering-mtg-commander-decks",
+		"scroll": "true",
+		"skip": "10",
+		"html_items": "card",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "card__heading",
+		"html_name_tag": "h3",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "price-item",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock_flag": "out",
+		"html_stock": "badge",
+		"html_stock_tag": "span",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	}], 
+	"decks": [
+	{
+		"name": "Aura of Courage",
+		"set": "Adventures in the Forgotten Realms",
+		"set_alts": ["FORGOTTEN"]
+	},
+	{
+		"name": "Draconic Rage",
+		"set": "Adventures in the Forgotten Realms",
+		"set_alts": ["FORGOTTEN"]
+	},
+	{
+		"name": "Dungeons of Death",
+		"set": "Adventures in the Forgotten Realms",
+		"set_alts": ["FORGOTTEN"]
+	},
+	{
+		"name": "Planar Portal",
+		"set": "Adventures in the Forgotten Realms",
+		"set_alts": ["FORGOTTEN"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["4 Decks"],
+		"set": "Adventures in the Forgotten Realms",
+		"set_alts": ["FORGOTTEN"]
+	},
+	{
+		"name": "Eternal Might",
+		"set": "Aetherdrift (Preorder)",
+		"set_alts": ["Aetherdrift"]
+	},
+	{
+		"name": "Living Energy",
+		"set": "Aetherdrift (Preorder)",
+		"set_alts": ["Aetherdrift"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Aetherdrift (Preorder)",
+		"set_alts": ["Aetherdrift"]
+	},
+	{
+		"name": "Animated Army",
+		"set": "Bloomburrow"
+	},
+	{
+		"name": "Family Matters",
+		"set": "Bloomburrow"
+	},
+	{
+		"name": "Peace Offering",
+		"set": "Bloomburrow"
+	},
+	{
+		"name": "Squirreled Away",
+		"alts": ["Squirrel"],
+		"set": "Bloomburrow"
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "Bloomburrow"
+	},
+	{
+		"name": "Mishra's Burnished Banner",
+		"alts": ["Mishra"],
+		"set": "The Brother's War",
+		"set_alts": ["Brother"]
+	},
+	{
+		"name": "Urza's Iron Alliance",
+		"alts": ["Urza"],
+		"set": "The Brother's War",
+		"set_alts": ["Brother"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "The Brother's War",
+		"set_alts": ["Brother"]
+	},
+	{
+		"name": "Breed Lethality",
+		"set": "Commander 2016"
+	},
+	{
+		"name": "Entropic Uprising",
+		"set": "Commander 2016"
+	},
+	{
+		"name": "Invent Superiority",
+		"set": "Commander 2016"
+	},
+	{
+		"name": "Open Hostility",
+		"set": "Commander 2016"
+	},
+	{
+		"name": "Stalwart Unity",
+		"set": "Commander 2016"
+	},
+	{
+		"name": "Arcane Wizardry",
+		"set": "Commander 2017"
+	},
+	{
+		"name": "Draconic Domination",
+		"set": "Commander 2017"
+	},
+	{
+		"name": "Feline Ferocity",
+		"set": "Commander 2017"
+	},
+	{
+		"name": "Vampiric Bloodlust",
+		"set": "Commander 2017"
+	},
+	{
+		"name": "Adaptive Enchantment",
+		"set": "Commander 2018"
+	},
+	{
+		"name": "Exquisite Invention",
+		"set": "Commander 2018"
+	},
+	{
+		"name": "Nature's Vengeance",
+		"alts": ["Vengence"],
+		"set": "Commander 2018"
+	},
+	{
+		"name": "Subjective Reality",
+		"set": "Commander 2018"
+	},
+	{
+		"name": "Merciless Rage",
+		"set": "Commander 2019",
+		"set_alts": ["2019 Commander"]
+	},
+	{
+		"name": "Faceless Menace",
+		"set": "Commander 2019",
+		"set_alts": ["2019 Commander"]
+	},
+	{
+		"name": "Mystic Intellect",
+		"set": "Commander 2019",
+		"set_alts": ["2019 Commander"]
+	},
+	{
+		"name": "Primal Genesis",
+		"set": "Commander 2019",
+		"set_alts": ["2019 Commander"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "Commander 2019",
+		"set_alts": ["2019 Commander"]
+	},
+	{
+		"name": "Arcane Maelstrom",
+		"alts": ["Arcane Maelstorm"],
+		"set": "Commander 2020",
+		"set_alts": ["Ikoria"]
+	},
+	{
+		"name": "Enhanced Evolution",
+		"set": "Commander 2020",
+		"set_alts": ["Ikoria"]
+	},
+	{
+		"name": "Ruthless Regiment",
+		"set": "Commander 2020",
+		"set_alts": ["Ikoria"]
+	},
+	{
+		"name": "Symbiotic Swarm",
+		"set": "Commander 2020",
+		"set_alts": ["Ikoria"]
+	},
+	{
+		"name": "Timeless Wisdom",
+		"set": "Commander 2020",
+		"set_alts": ["Ikoria"]
+	},
+	{
+		"name": "Set of 5",
+		"alts": ["Set of"],
+		"set": "Commander 2020",
+		"set_alts": ["Ikoria"]
+	},
+	{
+		"name": "Arm For Battle",
+		"set": "Commander Legends"
+	},
+	{
+		"name": "Reap the Tides",
+		"alts": ["Reap the Tide"],
+		"set": "Commander Legends"
+	},
+	{
+		"name": "Set of 2",
+		"set": "Commander Legends"
+	},
+	{
+		"name": "Draconic Descent",
+		"alts": ["Dissent"],
+		"set": "Commander Legends: Battle for Baldur's Gate",
+		"set_alts": ["BALDUR"]
+	},
+	{
+		"name": "Exit From Exile",
+		"set": "Commander Legends: Battle for Baldur's Gate",
+		"set_alts": ["BALDUR"]
+	},
+	{
+		"name": "Mind Flayarrrs",
+		"set": "Commander Legends: Battle for Baldur's Gate",
+		"set_alts": ["BALDUR"]
+	},
+	{
+		"name": "Party Time",
+		"set": "Commander Legends: Battle for Baldur's Gate",
+		"set_alts": ["BALDUR"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of", "4  DECKS"],
+		"set": "Commander Legends: Battle for Baldur's Gate",
+		"set_alts": ["BALDUR"]
+	},
+	{
+		"name": "Enduring Enchantments",
+		"set": "Commander Masters"
+	},
+	{
+		"name": "Eldrazi Unbound",
+		"set": "Commander Masters"
+	},
+	{
+		"name": "Planeswalker Party",
+		"set": "Commander Masters"
+	},
+	{
+		"name": "Sliver Swarm",
+		"set": "Commander Masters"
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "Commander Masters"
+	},
+	{
+		"name": "Blast From the Past",
+		"set": "Doctor Who",
+		"set_alts": ["Who"]
+	},
+	{
+		"name": "Masters of Evil",
+		"set": "Doctor Who",
+		"set_alts": ["Who"]
+	},
+	{
+		"name": "Paradox Power",
+		"set": "Doctor Who",
+		"set_alts": ["Who"]
+	},
+	{
+		"name": "Timey-Wimey",
+		"alts": ["Timey"],
+		"set": "Doctor Who",
+		"set_alts": ["Who"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "Doctor Who",
+		"set_alts": ["Who"]
+	},
+	{
+		"name": "Legend's Legacy",
+		"alts": ["Legacy"],
+		"set": "Dominaria United"
+	},
+	{
+		"name": "Painbow",
+		"set": "Dominaria United"
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Dominaria United"
+	},
+	{
+		"name": "Death Toll",
+		"set": "Duskmourn: House of Horror",
+		"set_alts": ["Duskmourn"]
+	},
+	{
+		"name": "Endless Punishment",
+		"set": "Duskmourn: House of Horror",
+		"set_alts": ["Duskmourn"]
+	},
+	{
+		"name": "Jump Scare!",
+		"alts": ["Jump Scare"],
+		"set": "Duskmourn: House of Horror",
+		"set_alts": ["Duskmourn"]
+	},
+	{
+		"name": "Miracle Worker",
+		"set": "Duskmourn: House of Horror",
+		"set_alts": ["Duskmourn"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of", "Full Set"],
+		"set": "Duskmourn: House of Horror",
+		"set_alts": ["Duskmourn"]
+	},
+	{
+		"name": "Hail, Caesar",
+		"alts": ["Caesar"],
+		"set": "Fallout: Out of the Vault",
+		"set_alts": ["Fallout"]
+	},
+	{
+		"name": "Mutant Menace",
+		"set": "Fallout: Out of the Vault",
+		"set_alts": ["Fallout"]
+	},
+	{
+		"name": "Science!",
+		"alts": ["Science"],
+		"set": "Fallout: Out of the Vault",
+		"set_alts": ["Fallout"]
+	},
+	{
+		"name": "Scrappy Survivors",
+		"alts": ["SCRAPPY"],
+		"set": "Fallout: Out of the Vault",
+		"set_alts": ["Fallout"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of", "4 Decks"],
+		"set": "Fallout: Out of the Vault",
+		"set_alts": ["Fallout"]		
+	},
+	{
+		"name": "Spirit Squadron",
+		"set": "Innistrad: Crimson Vow",
+		"set_alts": ["Crimson"]
+	},
+	{
+		"name": "Vampiric Bloodline",
+		"set": "Innistrad: Crimson Vow",
+		"set_alts": ["Crimson"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Innistrad: Crimson Vow",
+		"set_alts": ["Crimson"]
+	},
+	{
+		"name": "Coven Counters",
+		"set": "Innistrad: Midnight Hunt",
+		"set_alts": ["Midnight"]
+	},
+	{
+		"name": "Undead Unleashed",
+		"set": "Innistrad: Midnight Hunt",
+		"set_alts": ["Midnight"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Innistrad: Midnight Hunt",
+		"set_alts": ["Midnight"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["4 DECKS"],
+		"set": "Innistrad: Midnight Hunt & Innistrad: Crimson Vow",
+		"set_alts": ["INNISTRAD MIDNIGHT HUNT & INNISTRAD CRIMSON VOW"]
+	},
+	{
+		"name": "Elven Empire",
+		"set": "Kaldheim"
+	},
+	{
+		"name": "Phantom Premonition",
+		"set": "Kaldheim"
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Kaldheim"
+	},
+	{
+		"name": "Buckle Up",
+		"set": "Kamigawa: Neon Dynasty",
+		"set_alts": ["Kamigawa"]
+	},
+	{
+		"name": "Upgrades Unleashed",
+		"set": "Kamigawa: Neon Dynasty",
+		"set_alts": ["Kamigawa"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Kamigawa: Neon Dynasty",
+		"set_alts": ["Kamigawa"]
+	},
+	{
+		"name": "Call For Backup",
+		"set": "March of the Machine"
+	},
+	{
+		"name": "Cavalry Charge",
+		"set": "March of the Machine"
+	},
+	{
+		"name": "Divine Convocation",
+		"set": "March of the Machine"
+	},
+	{
+		"name": "Growing Threat",
+		"set": "March of the Machine"
+	},
+	{
+		"name": "Tinker Time",
+		"set": "March of the Machine"
+	},
+	{
+		"name": "Set of 5",
+		"alts": ["Set of"],
+		"set": "March of the Machine"
+	},
+	{
+		"name": "Creative Energy",
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"]
+	},
+	{
+		"name": "Eldrazi Incursion",
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"]
+	},
+	{
+		"name": "Graveyard Overdrive",
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"]
+	},
+	{
+		"name": "Tricky Terrain",
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of", "Deck Set"],
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"]
+	},
+	{
+		"name": "Creative Energy: Collector's Edition",
+		"alts": ["Creative Energy"],
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"],
+		"collector": "true"
+	},
+	{
+		"name": "Eldrazi Incursion: Collector's Edition",
+		"alts": ["Eldrazi Incursion"],
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"],
+		"collector": "true"
+	},
+	{
+		"name": "Graveyard Overdrive: Collector's Edition",
+		"alts": ["Graveyard Overdrive"],
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"],
+		"collector": "true"
+	},
+	{
+		"name": "Tricky Terrain: Collector's Edition",
+		"alts": ["Tricky Terrain"],
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"],
+		"collector": "true"
+	},
+	{
+		"name": "Set of 4: Collector's Edition",
+		"alts": ["Set of"],
+		"set": "Modern Horizons 3",
+		"set_alts": ["MODERN HORIZONS III"],
+		"collector": "true"
+	},
+	{
+		"name": "Blame Game",
+		"set": "Murders at Karlov Manor"
+	},
+	{
+		"name": "Deadly Disguise",
+		"set": "Murders at Karlov Manor",
+		"set_alts": ["Kavlov"]
+	},
+	{
+		"name": "Deep Clue Sea",
+		"alts": ["Deep Sea Clue"],
+		"set": "Murders at Karlov Manor"
+	},
+	{
+		"name": "Revenant Recon",
+		"set": "Murders at Karlov Manor"
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["4 Decks", "Set of"],
+		"set": "Murders at Karlov Manor"
+	},
+	{
+		"name": "Desert Bloom",
+		"set": "Outlaws of Thunder Junction"
+	},
+	{
+		"name": "Grand Larceny",
+		"set": "Outlaws of Thunder Junction"
+	},
+	{
+		"name": "Most Wanted",
+		"set": "Outlaws of Thunder Junction"
+	},
+	{
+		"name": "Quick Draw",
+		"set": "Outlaws of Thunder Junction"
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "Outlaws of Thunder Junction"
+	},
+	{
+		"name": "Corrupting Influence",
+		"set": "Phyrexia: All Will Be One",
+		"set_alts": ["Phyrexia"]
+	},
+	{
+		"name": "Rebellion Rising",
+		"set": "Phyrexia: All Will Be One",
+		"set_alts": ["Phyrexia"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Phyrexia: All Will Be One",
+		"set_alts": ["Phyrexia"]
+	},
+	{
+		"name": "Bedecked Brokers",
+		"set": "Streets of New Capenna"
+	},
+	{
+		"name": "Cabaretti Cacophony",
+		"set": "Streets of New Capenna"
+	},
+	{
+		"name": "Maestros Massacre",
+		"set": "Streets of New Capenna"
+	},
+	{
+		"name": "Obscura Operation",
+		"set": "Streets of New Capenna"
+	},
+	{
+		"name": "Riveteer's Rampage",
+		"alts": ["Riveteer"],
+		"set": "Streets of New Capenna"
+	},
+	{
+		"name": "Set of 5",
+		"alts": ["Set of"],
+		"set": "Streets of New Capenna"
+	},
+	{
+		"name": "Lorehold Legacies",
+		"set": "Strixhaven: School of Mages",
+		"set_alts": ["Strixhaven"]
+	},
+	{
+		"name": "Prismari Performance",
+		"set": "Strixhaven: School of Mages",
+		"set_alts": ["Strixhaven"]
+	},
+	{
+		"name": "Quantum Quandrix",
+		"set": "Strixhaven: School of Mages",
+		"set_alts": ["Strixhaven"]
+	},
+	{
+		"name": "Silverquill Statement",
+		"set": "Strixhaven: School of Mages",
+		"set_alts": ["Strixhaven"]
+	},
+	{
+		"name": "Witherbloom Witchcraft",
+		"set": "Strixhaven: School of Mages",
+		"set_alts": ["Strixhaven"]
+	},
+	{
+		"name": "Set of 5",
+		"alts": ["Set of"],
+		"set": "Strixhaven: School of Mages",
+		"set_alts": ["Strixhaven"]
+	},
+	{
+		"name": "Elven Council",
+		"alts": ["Elvin"],
+		"set": "The Lord of the Rings: Tales of Middle-earth",
+		"set_alts": ["Lord"]
+	},
+	{
+		"name": "Food and Fellowship",
+		"set": "The Lord of the Rings: Tales of Middle-earth",
+		"set_alts": ["Lord"]
+	},
+	{
+		"name": "Riders of Rohan",
+		"set": "The Lord of the Rings: Tales of Middle-earth",
+		"set_alts": ["Lord"]
+	},
+	{
+		"name": "The Hosts of Mordor",
+		"set": "The Lord of the Rings: Tales of Middle-earth",
+		"set_alts": ["Lord"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["4 Decks", "Set of"],
+		"set": "The Lord of the Rings: Tales of Middle-earth",
+		"set_alts": ["Lord"]
+	},
+	{
+		"name": "Ahoy Mateys",
+		"set": "The Lost Caverns of Ixalan",
+		"set_alts": ["Ixalan"]
+	},
+	{
+		"name": "Blood Rites",
+		"set": "The Lost Caverns of Ixalan",
+		"set_alts": ["Ixalan"]
+	},
+	{
+		"name": "Explorers of the Deep",
+		"set": "The Lost Caverns of Ixalan",
+		"set_alts": ["Ixalan"]
+	},
+	{
+		"name": "Veloci-Ramp-Tor",
+		"set": "The Lost Caverns of Ixalan",
+		"set_alts": ["Ixalan"]
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "The Lost Caverns of Ixalan",
+		"set_alts": ["Ixalan"]
+	},
+	{
+		"name": "Forces of the Imperium",
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"]
+	},
+	{
+		"name": "Necron Dynasties",
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"]
+	},
+	{
+		"name": "The Ruinous Powers",
+		"alts": ["Ruinous"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"]		
+	},
+	{
+		"name": "Tyranid Swarm",
+		"alts": ["Tyranid"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"]		
+	},
+	{
+		"name": "Set of 4",
+		"alts": ["Set of"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"]
+	},
+	{
+		"name": "Forces of the Imperium: Collector's Edition",
+		"alts": ["Imperium"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"],
+		"collector": "true"
+	},
+	{
+		"name": "Necron Dynasties: Collector's Edition",
+		"alts": ["Necron"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"],
+		"collector": "true"
+	},
+	{
+		"name": "The Ruinous Powers: Collector's Edition",
+		"alts": ["Ruinous"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"],
+		"collector": "true"
+	},
+	{
+		"name": "Tyranid Swarm: Collector's Edition",
+		"alts": ["Tyranid"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"],
+		"collector": "true"
+	},
+	{
+		"name": "Set of 4: Collector's Edition",
+		"alts": ["Set of 4"],
+		"set": "Warhammer 40,000",
+		"set_alts": ["Warhammer"],
+		"collector": "true"
+	},
+	{
+		"name": "Fae Dominion",
+		"set": "Wilds of Eldraine"
+	},
+	{
+		"name": "Virtue and Valor",
+		"set": "Wilds of Eldraine",
+		"alts": ["Virtue"]
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Wilds of Eldraine"
+	},
+	{
+		"name": "Land's Wrath",
+		"alts": ["Wrath"],
+		"set": "Zendikar Rising"
+	},
+	{
+		"name": "Sneak Attack",
+		"set": "Zendikar Rising"
+	},
+	{
+		"name": "Set of 2",
+		"alts": ["Set of"],
+		"set": "Zendikar Rising"
+	}
+]}
