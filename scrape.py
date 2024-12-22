@@ -223,7 +223,7 @@ def fetch_one(store):
         with open(f"fetched\\{store['file']}", 'w', encoding='utf-8') as f:
             f.write(driver.page_source)
     except TimeoutException:
-        print("shit fuck")
+        print("Element not found in fetch_one")
     finally:
         driver.quit()
 
@@ -448,8 +448,8 @@ def write_html(decks):
 
 data = read_data()
 decks = make_decks(data)
-# for store in data['stores']:
-#     fetch(store)
+for store in data['stores']:
+    fetch(store)
 # fetch(data['stores'][5])
 # fetch_one(data['stores'][4])
 for store in data['stores']:
