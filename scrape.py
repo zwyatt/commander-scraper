@@ -3,16 +3,19 @@
 # STORES
 # hardcoded last page for gamebridge
 # ALL-IN-ONE LISTINGS
-# black knight
-# chimera
-# L.A. mood
-# derpycards
-# red dragon
+# L.A. mood (no)
+# derpycards (no)
+# red dragon (no)
+# ONLINE SHOPPING AVAILABLE SOON (TM)
+# arkain hobbies and games
 # HTML
+# two columns
 # filter/search/sort
+# navigation arrows (up to top down to bottom)
 # price history (lol)
-# search singles?
-
+# search singles? (lol)
+# GITHUB
+# branch deployment?
 
 import csv
 import json
@@ -40,6 +43,7 @@ class Deck:
         self.set_alts = set_alts
         self.collector = collector
         self.store_decks = []
+        self.stock = False
 
     def __str__(self):
         return f"{self.set} - {self.name}"
@@ -190,8 +194,8 @@ def fetch(store):
                 EC.presence_of_element_located((
                     By.XPATH, format_xpath(store['html_items_tag'], store['html_items_attr'], store['html_items']))))
             print(elem)
-            # Wait 10 seconds to be courteous.
-            time.sleep(10)
+            # Wait 5 seconds to be courteous.
+            time.sleep(5)
 
             # Trim everything before the first item.
             html += trim(driver.page_source, elem)
@@ -241,22 +245,25 @@ not_found = []
 #
 # Extract product info from BeautifulSoup.
 def extract(soup, store, decks):
+    global not_found
+    global testing
+
     # Generalized soup extraction.
     def soup_find(item, attr, _id, tag, value):
-        # get('text') doesn't work so we improvise.
-        def soup_value(elem):
-            if elem:
-                if elem.has_attr(value):
-                    return elem.get(value).strip()
-                else:
-                    return elem.text.strip()
-            # Elem not found, likely a sale price from JJs or a negative stock flag.
-            else:
-                return elem
-
         soup_dict = {attr: _id}
         found = item.find(tag, soup_dict)
-        return soup_value(found)
+        return soup_value(found, value)
+
+    # get('text') doesn't work so we improvise.
+    def soup_value(elem, value):
+        if elem:
+            if elem.has_attr(value):
+                return elem.get(value).strip()
+            else:
+                return elem.text.strip()
+        # Elem not found, likely a sale price from JJs or a negative stock flag.
+        else:
+            return elem
 
     # Is the item a deck in our database?
     def in_decks(item, deck):
@@ -273,6 +280,7 @@ def extract(soup, store, decks):
             or "japanese" in l_item
             or "(fr)" in l_item
             or "french" in l_item
+            or "prerelease" in l_item
         ):
             return False
 
@@ -296,19 +304,9 @@ def extract(soup, store, decks):
 
         return l_deck_name in l_item
 
-    global not_found
-    global testing
-    # Extract all the items.
-    items_dict = {store['html_items_attr']: store['html_items']}
-    items = soup.find_all(store['html_items_tag'], items_dict)
-    # Skip x items at the beginning if required based on the store.
-    if 'skip' in store:
-        items = items[int(store['skip']):]
-
-    print(f"{len(items)} items found")
-
-    for item in items:
-        found = False
+    # Extract item
+    # Returns a list of one item (name, link, price, stock)
+    def extract_item(item):
         # Extract name.
         # Soup can't get text from anchor tags... weird. Use parent tag.
         name = soup_find(
@@ -328,10 +326,6 @@ def extract(soup, store, decks):
             store['html_link_tag'],
             store['html_link_value']
         )
-        # Prefix with the store link if it's a local path.
-        if "https" not in link:
-            link = store['link'] + link
-        print(link)
 
         # Extract price.
         text_price = soup_find(
@@ -352,17 +346,6 @@ def extract(soup, store, decks):
                 store['html_price_value']
             )
 
-        # Clean up the price to remove CAD, dollar signs, etc.
-        price = ""
-        for char in text_price:
-            if char.isnumeric() or char == ".":
-                price += char
-        print(price)
-
-        # Gamebridge has some items that are priced at $0.
-        if float(price) == 0:
-            continue
-
         # Extract stock.
         stock = soup_find(
             item,
@@ -371,33 +354,122 @@ def extract(soup, store, decks):
             store['html_stock_tag'],
             store['html_stock_value']
         )
-        print(stock)
-        # Imaginaire either has an Add to Cart button or it doesn't (or an Out of Stock span or it doesn't)
-        if 'html_stock_flag' in store:
-            stock = (
-                store['html_stock_flag'] == "in" and stock
-                or store['html_stock_flag'] == "out" and not stock)
+
+        return [(name, link, text_price, stock)]
+
+    # Extract all the sub-items for stores with combined listings
+    # Returns a list of (name, link, price, stock)
+    def extract_subitems(item):
+        global testing
+        _set = soup_find(
+            item,
+            store['html_set_attr'],
+            store['html_set'],
+            store['html_set_tag'],
+            store['html_set_value']
+        )
+        print(_set)
+
+        link = soup_find(
+            item,
+            store['html_link_attr'],
+            store['html_link'],
+            store['html_link_tag'],
+            store['html_link_value']
+        )
+        print(link)
+
+        # Parent element of the subitems
+        parent_dict = {store['html_subitems_attr']: store['html_subitems']}
+        parent = item.find(store['html_subitems_tag'], parent_dict)
+
+        # The actual subitems
+        subitems_dict = {store['html_subitem_attr']: store['html_subitem']}
+        subitems = parent.find_all(store['html_subitem_tag'], subitems_dict)
+
+        subitems_r = []
+
+        for subitem in subitems:
+            name = soup_value(subitem, store['html_name_value'])
+            print(name)
+            price = soup_value(subitem, store['html_price_value'])
+            print(price)
+            stock = soup_value(subitem, store['html_stock_value'])
+            print(stock)
+            subitems_r.append((f"{_set} - {name}", link, price, stock))
+
+        return subitems_r
+
+    # Extract all the items.
+    items_dict = {store['html_items_attr']: store['html_items']}
+    items = soup.find_all(store['html_items_tag'], items_dict)
+    # Skip x items at the beginning if required based on the store.
+    if 'skip' in store:
+        items = items[int(store['skip']):]
+
+    print(f"{len(items)} items found")
+
+    for item in items:
+        found = False
+        if 'html_subitems' in store:
+            subitems = extract_subitems(item)
         else:
-            stock = (
-                "in" in stock.lower()
-                or "add" in stock.lower()
-                or "true" in stock.lower()
-                or "new" in stock.lower())
+            subitems = extract_item(item)
 
-        # Which deck is it?
-        for i in range(len(decks)):
-            if in_decks(name, decks[i]):
-                decks[i].store_decks.append(Store_Deck(store, link, price, stock))
-                found = True
-                break
+        # This is ugly, pretend it's not happening
+        for subitem in subitems:
+            name = subitem[0]
+            link = subitem[1]
+            text_price = subitem[2]
+            stock = subitem[3]
 
-        if not found:
-            print(f"{name} not found")
-            not_found.append(name)
+            # Prefix with the store link if it's a local path.
+            if "https" not in link:
+                link = store['link'] + link
+            print(link)
+
+            # Clean up the price to remove CAD, dollar signs, etc.
+            price = ""
+            for char in text_price:
+                if char.isnumeric() or char == ".":
+                    price += char
+            print(price)
+
+            # Gamebridge has some items that are priced at $0. Also Chimera sometimes when out of stock
+            if float(price) == 0:
+                continue
+
+            print(stock)
+            # Imaginaire either has an Add to Cart button or it doesn't (or an Out of Stock span or it doesn't)
+            if 'html_stock_flag' in store:
+                stock = (
+                    store['html_stock_flag'] == "in" and stock
+                    or store['html_stock_flag'] == "out" and not stock)
+            elif 'html_stock_numerical' in store:
+                stock = int(stock) > 0
+            else:
+                stock = (
+                    "in" in stock.lower()
+                    or "add" in stock.lower()
+                    or "true" in stock.lower()
+                    or "new" in stock.lower())
+
+            # Which deck is it?
+            found = False
+            for i in range(len(decks)):
+                if in_decks(name, decks[i]):
+                    decks[i].store_decks.append(Store_Deck(store, link, price, stock))
+                    found = True
+                    break
+
+            if not found:
+                print(f"{name} not found")
+                not_found.append(name)
 
     return decks
 
 
+# No longer used.
 def write_csv(decks):
     with open('decks.csv', 'w') as csvfile:
         fieldnames = ['deck', 'store', 'price', 'stock']
@@ -431,7 +503,7 @@ def write_html(decks):
     template = env.get_template('template.html.jinja')
     # Sort the decks by stock -> price.
     # Should I even include stock in the sort? ugh.
-    for deck in (deck for deck in decks if deck.store_decks):
+    for deck in decks:
         deck.store_decks.sort()
         # in_stock = []
         # out_stock = []
@@ -441,6 +513,7 @@ def write_html(decks):
         #     else:
         #         out_stock.append(store_deck)
         # deck.store_decks = in_stock
+        # deck.stock = len(in_stock) > 0
 
     with open('index.html', 'w') as f:
         f.write(template.render(decks=decks))
@@ -448,9 +521,9 @@ def write_html(decks):
 
 data = read_data()
 decks = make_decks(data)
-for store in data['stores']:
-    fetch(store)
-# fetch(data['stores'][5])
+# for store in data['stores']:
+#     fetch(store)
+# fetch(data['stores'][18])
 # fetch_one(data['stores'][4])
 for store in data['stores']:
     html = read_html(store)
@@ -483,6 +556,11 @@ with open('not_found.txt', 'w') as f:
             and "beginner" not in x.lower()
             and "from the vault" not in x.lower()
             and "planeswalker deck" not in x.lower()
+            and "deck box" not in x.lower()
+            and "played" not in x.lower()
+            and "mint" not in x.lower()
+            and "default title" not in x.lower()
+            and "guild" not in x.lower()
         ):
             f.write(f"{x}\n")
 

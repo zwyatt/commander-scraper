@@ -4,7 +4,7 @@
 		"name": "Face to Face Games",
 		"file": "f2f.html",
 		"link": "https://www.facetofacegames.com/",
-		"address": "1398 Danforth Ave., Toronto, Ontario",
+		"address": "1398 Danforth Ave., Toronto, ON",
 		"page": "https://www.facetofacegames.com/magic/magic-the-gathering-sealed-products/multiplayer-products/?pg=",
 		"html_items": "hawk-results-item__inner",
 		"html_items_tag": "div",
@@ -30,7 +30,7 @@
 		"name": "J&J Cards & Collectibles",
 		"file": "jj.html",
 		"link": "https://shop.jjcards.com/",
-		"address": "230 Weber St. N., Waterloo, Ontario",
+		"address": "230 Weber St. N., Waterloo, ON",
 		"page": "https://shop.jjcards.com/search.asp?keyword=commander+deck&sortby=0&page=",
 		"html_items": "product-content",
 		"html_items_tag": "div",
@@ -57,7 +57,7 @@
 		"name": "401 Games",
 		"file": "401.html",
 		"link": "https://store.401games.ca/",
-		"address": "431 Yonge St., Toronto, Ontario",
+		"address": "431 Yonge St., Toronto, ON",
 		"page": "https://store.401games.ca/collections/magic-the-gathering-commander-decks?page=",
 		"html_items": "product-info",
 		"html_items_tag": "div",
@@ -83,7 +83,7 @@
 		"name": "Hobbiesville",
 		"file": "hobbies.html",
 		"link": "https://hobbiesville.com",
-		"address": "9 Ossington Ave. Toronto, Ontario",
+		"address": "9 Ossington Ave. Toronto, ON",
 		"page": "https://hobbiesville.com/collections/magic-the-gathering-commander-deck",
 		"html_next": "Go to next page",
 		"html_next_tag": "a",
@@ -115,7 +115,7 @@
 		"name": "Level Up Games",
 		"file": "level.html",
 		"link": "https://levelupgames.ca",
-		"address": "#2 2316 Major Mackenzie Drive West, Maple, Ontario",
+		"address": "2316 Major Mackenzie Drive West Unit #2, Maple, ON",
 		"page": "https://levelupgames.ca/collections/mtg-sealed?page=",
 		"html_items": "productCard__lower",
 		"html_items_tag": "div",
@@ -141,7 +141,7 @@
 		"name": "c&c gamebridge",
 		"file": "gamebridge.html",
 		"link": "https://gamebridge.ca",
-		"address": "645 King Street East, Cambridge, Ontario",
+		"address": "645 King Street East, Cambridge, ON",
 		"page": "https://gamebridge.ca/collections/mtg-sealed-all?page=",
 		"last_page": "12",
 		"html_items": "grid__item",
@@ -169,7 +169,7 @@
 		"name": "TKO Toy Co.",
 		"file": "tko.html",
 		"link": "https://tkotoyco.com",
-		"address": "#9 930 Woodlawn Road West, Guelph, Ontario",
+		"address": "930 Woodlawn Road West Unit #9, Guelph, ON",
 		"page": "https://tkotoyco.com/collections/mtg-sealed?page=",
 		"html_items": "productCard__lower",
 		"html_items_tag": "div",
@@ -221,7 +221,7 @@
 		"name": "House of Cards",
 		"file": "house.html",
 		"link": "https://houseofcards.ca",
-		"address": "#101 5660 176a St., Surrey, British Columbia",
+		"address": "5660 176a St. Unit #101, Surrey, BC",
 		"page": "https://houseofcards.ca/collections/commander-preconstructed-decks?page=",
 		"html_items": "productCard__lower",
 		"html_items_tag": "div",
@@ -247,7 +247,7 @@
 		"name": "Obsidian Games",
 		"file": "obsidian.html",
 		"link": "https://obsidiangames.ca",
-		"address": "#302 2520 53 Ave, Vernon, British Columbia",
+		"address": "2520 53 Ave Unit #302, Vernon, BC",
 		"page": "https://obsidiangames.ca/collections/mtg-precon-decks?page=",
 		"html_items": "productCard__lower",
 		"html_items_tag": "div",
@@ -273,7 +273,7 @@
 		"name": "Wizard Tower",
 		"file": "wizard.html",
 		"link": "https://www.kanatacg.com",
-		"address": "80 Marketplace Ave, Nepean, Ontario",
+		"address": "80 Marketplace Ave, Nepean, ON",
 		"page": "https://www.kanatacg.com/catalog/magic_sealed_products-commander_decks/318?filter_by_stock=out-of-stock%3Ffilter_by_stock%3Din-stock&page=",
 		"html_items": "http://schema.org/Product",
 		"html_items_tag": "li",
@@ -299,7 +299,7 @@
 		"name": "Le Coin de Jeu",
 		"file": "coin.html",
 		"link": "https://www.lecoindujeu.ca",
-		"address": "119-2 Montée Masson, Mascouche, Quebec",
+		"address": "119-2 Montée Masson, Mascouche, QC",
 		"page": "https://www.lecoindujeu.ca/search?filter.p.product_type=MTG+Sealed&page=&q=commander",
 		"html_items": "productitem__container",
 		"html_items_tag": "div",
@@ -325,7 +325,7 @@
 		"name": "Imaginaire",
 		"file": "imaginaire.html",
 		"link": "https://imaginaire.com",
-		"address": "50 Rideau St., Ottawa, Ontario",
+		"address": "50 Rideau St., Ottawa, ON",
 		"page": "https://imaginaire.com/en/games-and-puzzles/collectible-card-games/magic-the-gathering/decks.html?page=",
 		"html_items": "card",
 		"html_items_tag": "div",
@@ -352,7 +352,7 @@
 		"name": "Top Shelf Collection",
 		"file": "shelf.html",
 		"link": "https://topshelfco.ca",
-		"address": "481 North Service Rd West Unit A14, Oakville, Ontario",
+		"address": "481 North Service Rd West Unit A14, Oakville, ON",
 		"page": "https://topshelfco.ca/collections/magic-the-gathering-mtg-commander-decks",
 		"scroll": "true",
 		"skip": "10",
@@ -376,7 +376,142 @@
 		"html_stock_tag": "span",
 		"html_stock_attr": "class",
 		"html_stock_value": "text"
-	}], 
+	},
+	{
+		"name": "Chimera Gaming",
+		"file": "chimera.html",
+		"link": "https://chimeragamingonline.com",
+		"address": "700 Strasburg Road Unit #31, Kitchener, ON",
+		"page": "https://chimeragamingonline.com/collections/magic-the-gathering-sealed?page=",
+		"html_items": "grid__item",
+		"html_items_tag": "li",
+		"html_items_attr": "class",
+		"html_subitems": "product-form__variants",
+		"html_subitems_tag": "select",
+		"html_subitems_attr": "class",
+		"html_subitem": "",
+		"html_subitem_tag": "option",
+		"html_subitem_attr": "",
+		"html_set": "grid-view-item__title",
+		"html_set_tag": "div",
+		"html_set_attr": "class",
+		"html_set_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_name_value": "text",
+		"html_price_value": "data-price",
+		"html_stock_numerical": "true",
+		"html_stock_value": "data-available"
+	},
+	{
+		"name": "Black Knight Games",
+		"file": "blackknight.html",
+		"link": "https://blackknightgames.ca",
+		"address": "864 Mohawk Rd East, Hamilton, ON",
+		"page": "https://blackknightgames.ca/search?options%5Bprefix%5D=last&page=&q=commander+sealed&type=product",
+		"last_page": "8",
+		"html_items": "grid-view-item",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_subitems": "product-form__variants",
+		"html_subitems_tag": "select",
+		"html_subitems_attr": "class",
+		"html_subitem": "",
+		"html_subitem_tag": "option",
+		"html_subitem_attr": "",
+		"html_set": "grid-view-item__title",
+		"html_set_tag": "div",
+		"html_set_attr": "class",
+		"html_set_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_name_value": "text",
+		"html_price_value": "data-price",
+		"html_stock_numerical": "true",
+		"html_stock_value": "data-available"
+	},
+	{
+		"name": "Dark Crystal Cards",
+		"file": "darkcrystal.html",
+		"link": "https://darkcrystalcards.com",
+		"address": "19 Broadway Street West Unit #7, Paris, ON, N3L 2S3",
+		"page": "https://darkcrystalcards.com/collections/magic-the-gathering-sealed-product?page=",
+		"html_items": "product-item",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "product-item__title",
+		"html_name_tag": "a",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "price",
+		"html_price_tag": "span",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "button",
+		"html_stock_tag": "button",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	},
+	{
+		"name": "Nerdz Gaming Cafe",
+		"file": "nerdz.html",
+		"link": "https://nerdzgaming.com",
+		"address": "365 Dundas Street, Woodstock, ON, N4S1B6 ",
+		"page": "https://nerdzgaming.com/collections/mtg-sealed?page=",
+		"html_items": "productCard__lower",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "",
+		"html_name_tag": "a",
+		"html_name_attr": "",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "productCard__price",
+		"html_price_tag": "p",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "productChip",
+		"html_stock_tag": "li",
+		"html_stock_attr": "class",
+		"html_stock_value": "data-variantavailable"
+	},
+	{
+		"name": "Tistaminis",
+		"file": "tistaminis.html",
+		"link": "https://tistaminis.com",
+		"address": "162 Parkdale Ave North, Hamilton, ON",
+		"page": "https://tistaminis.com/collections/magic-the-gathering?page=",
+		"html_items": "productitem__container",
+		"html_items_tag": "div",
+		"html_items_attr": "class",
+		"html_name": "productitem--title",
+		"html_name_tag": "h2",
+		"html_name_attr": "class",
+		"html_name_value": "text",
+		"html_link": "",
+		"html_link_tag": "a",
+		"html_link_attr": "",
+		"html_link_value": "href",
+		"html_price": "price__current",
+		"html_price_tag": "div",
+		"html_price_attr": "class",
+		"html_price_value": "text",
+		"html_stock": "product-stock-level__badge-text",
+		"html_stock_tag": "div",
+		"html_stock_attr": "class",
+		"html_stock_value": "text"
+	}],
 	"decks": [
 	{
 		"name": "Aura of Courage",
@@ -459,6 +594,86 @@
 		"alts": ["Set of"],
 		"set": "The Brother's War",
 		"set_alts": ["Brother"]
+	},
+	{
+		"name": "Counterpunch",
+		"set": "Commander 2011"
+	},
+	{
+		"name": "Devour For Power",
+		"set": "Commander 2011"
+	},
+	{
+		"name": "Heavenly Inferno",
+		"set": "Commander 2011"
+	},
+	{
+		"name": "Mirror Mastery",
+		"set": "Commander 2011"
+	},
+	{
+		"name": "Political Puppets",
+		"set": "Commander 2011"
+	},
+	{
+		"name": "Eternal Bargain",
+		"set": "Commander 2013"
+	},
+	{
+		"name": "Evasive Maneuvers",
+		"set": "Commander 2013"
+	},
+	{
+		"name": "Mind Seize",
+		"set": "Commander 2013"
+	},
+	{
+		"name": "Nature of the Beast",
+		"set": "Commander 2013"
+	},
+	{
+		"name": "Power Hungry",
+		"set": "Commander 2013"
+	},
+	{
+		"name": "Built From Scratch",
+		"set": "Commander 2014"
+	},
+	{
+		"name": "Forged in Stone",
+		"set": "Commander 2014"
+	},
+	{
+		"name": "Guided by Nature",
+		"set": "Commander 2014"
+	},
+	{
+		"name": "Peer Through Time",
+		"set": "Commander 2014"
+	},
+	{
+		"name": "Sworn to Darkness",
+		"set": "Commander 2014"
+	},
+	{
+		"name": "Call the Spirits",
+		"set": "Commander 2015"
+	},
+	{
+		"name": "Plunder the Graves",
+		"set": "Commander 2015"
+	},
+	{
+		"name": "Seize Control",
+		"set": "Commander 2015"
+	},
+	{
+		"name": "Swell the Host",
+		"set": "Commander 2015"
+	},
+	{
+		"name": "Wade Into Battle",
+		"set": "Commander 2015"
 	},
 	{
 		"name": "Breed Lethality",
@@ -634,22 +849,25 @@
 	},
 	{
 		"name": "Blast From the Past",
+		"alts": ["Eight"],
 		"set": "Doctor Who",
 		"set_alts": ["Who"]
 	},
 	{
 		"name": "Masters of Evil",
+		"alts": ["Greatest"],
 		"set": "Doctor Who",
 		"set_alts": ["Who"]
 	},
 	{
 		"name": "Paradox Power",
+		"alts": ["Thirteen"],
 		"set": "Doctor Who",
 		"set_alts": ["Who"]
 	},
 	{
 		"name": "Timey-Wimey",
-		"alts": ["Timey"],
+		"alts": ["Timey", "Eleven"],
 		"set": "Doctor Who",
 		"set_alts": ["Who"]
 	},
@@ -719,13 +937,13 @@
 	},
 	{
 		"name": "Scrappy Survivors",
-		"alts": ["SCRAPPY"],
+		"alts": ["SCRAPPY", "Scrapy"],
 		"set": "Fallout: Out of the Vault",
 		"set_alts": ["Fallout"]
 	},
 	{
 		"name": "Set of 4",
-		"alts": ["Set of", "4 Decks"],
+		"alts": ["Set of", "4 Decks", "Commander Deck Case"],
 		"set": "Fallout: Out of the Vault",
 		"set_alts": ["Fallout"]		
 	},
@@ -843,7 +1061,7 @@
 	},
 	{
 		"name": "Set of 4",
-		"alts": ["Set of", "Deck Set"],
+		"alts": ["Set of", "Deck Set", "Commander Deck Case"],
 		"set": "Modern Horizons 3",
 		"set_alts": ["MODERN HORIZONS III"]
 	},
@@ -902,7 +1120,7 @@
 	},
 	{
 		"name": "Set of 4",
-		"alts": ["4 Decks", "Set of"],
+		"alts": ["4 Decks", "Set of", "Commander Deck Case"],
 		"set": "Murders at Karlov Manor"
 	},
 	{
@@ -923,7 +1141,7 @@
 	},
 	{
 		"name": "Set of 4",
-		"alts": ["Set of"],
+		"alts": ["Set of", "Commander Deck Case"],
 		"set": "Outlaws of Thunder Junction"
 	},
 	{
@@ -965,7 +1183,7 @@
 	},
 	{
 		"name": "Set of 5",
-		"alts": ["Set of"],
+		"alts": ["Set of", "All 5 Commander Decks"],
 		"set": "Streets of New Capenna"
 	},
 	{
@@ -1048,7 +1266,7 @@
 	},
 	{
 		"name": "Set of 4",
-		"alts": ["Set of"],
+		"alts": ["Set of", "Commander Deck Case"],
 		"set": "The Lost Caverns of Ixalan",
 		"set_alts": ["Ixalan"]
 	},
@@ -1126,7 +1344,7 @@
 	},
 	{
 		"name": "Set of 2",
-		"alts": ["Set of"],
+		"alts": ["Set of", "Commander Deck Case"],
 		"set": "Wilds of Eldraine"
 	},
 	{
