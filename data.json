@@ -888,7 +888,7 @@
 	},
 	{
 		"name": "Set of 2",
-		"alts": ["Set of"],
+		"alts": ["Set of", "Both"],
 		"set": "Dominaria United"
 	},
 	{
@@ -1005,6 +1005,7 @@
 	},
 	{
 		"name": "Upgrades Unleashed",
+		"alts": ["Unleashed"],
 		"set": "Kamigawa: Neon Dynasty",
 		"set_alts": ["Kamigawa"]
 	},
@@ -1106,6 +1107,7 @@
 	},
 	{
 		"name": "Deadly Disguise",
+		"alts": ["DEADLY DISGUIE"],
 		"set": "Murders at Karlov Manor",
 		"set_alts": ["Kavlov"]
 	},
@@ -1221,28 +1223,29 @@
 		"name": "Elven Council",
 		"alts": ["Elvin"],
 		"set": "The Lord of the Rings: Tales of Middle-earth",
-		"set_alts": ["Lord"]
+		"set_alts": ["Lord", "LOTR"]
 	},
 	{
 		"name": "Food and Fellowship",
 		"set": "The Lord of the Rings: Tales of Middle-earth",
-		"set_alts": ["Lord"]
+		"set_alts": ["Lord", "LOTR"]
 	},
 	{
 		"name": "Riders of Rohan",
 		"set": "The Lord of the Rings: Tales of Middle-earth",
-		"set_alts": ["Lord"]
+		"set_alts": ["Lord", "LOTR"]
 	},
 	{
 		"name": "The Hosts of Mordor",
+		"alts": ["Hosts of Mordor"],
 		"set": "The Lord of the Rings: Tales of Middle-earth",
-		"set_alts": ["Lord"]
+		"set_alts": ["Lord", "LOTR"]
 	},
 	{
 		"name": "Set of 4",
 		"alts": ["4 Decks", "Set of"],
 		"set": "The Lord of the Rings: Tales of Middle-earth",
-		"set_alts": ["Lord"]
+		"set_alts": ["Lord", "LOTR"]
 	},
 	{
 		"name": "Ahoy Mateys",
@@ -1294,7 +1297,7 @@
 	},
 	{
 		"name": "Set of 4",
-		"alts": ["Set of"],
+		"alts": ["Set of", "All 4 Decks"],
 		"set": "Warhammer 40,000",
 		"set_alts": ["Warhammer"]
 	},
@@ -1328,7 +1331,7 @@
 	},
 	{
 		"name": "Set of 4: Collector's Edition",
-		"alts": ["Set of 4"],
+		"alts": ["Set of 4", "All 4 Decks"],
 		"set": "Warhammer 40,000",
 		"set_alts": ["Warhammer"],
 		"collector": "true"
@@ -1349,7 +1352,7 @@
 	},
 	{
 		"name": "Land's Wrath",
-		"alts": ["Wrath"],
+		"alts": ["Wrath", "Land's Rath"],
 		"set": "Zendikar Rising"
 	},
 	{
@@ -1358,7 +1361,7 @@
 	},
 	{
 		"name": "Set of 2",
-		"alts": ["Set of"],
+		"alts": ["Set of", "Both Decks"],
 		"set": "Zendikar Rising"
 	}
 ]}

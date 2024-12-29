@@ -3,35 +3,42 @@
 <html lang="en">
 <head>
     <title>Commander Deck Prices</title>
+    <h1>Commander Deck Prices</h1>
+    <div class="container">
+            <input type="checkbox" id="stock" onclick="filter()" />
+            <label for="stock">Show In-Stock Only</label>
+    </div>
+    <div class="container">
+        <label for="deck-search">Search: </label>
+        <input type="text" id="deck-search" oninput="filter()"/>
+    </div>
 </head>
 <body>
-    <div class="gridcontainer">
-        {% for deck in decks %}
-        <div>
-            <table>
-                <tr>
-                    <th>{{ deck.set }} - {{ deck.name }}</th>
-                </tr>
-                <tr>
-                    <td><b>Store</b></td>
-                    <td><b>Price</b></td>
-                    <td><b>Stock</b></td>
-                </tr>
-                {% for store_deck in deck.store_decks %}
-                <tr>
-                    <td id="deck"><a href="{{ store_deck.link }}">{{ store_deck.store['name'] }}</a></td>
-                    <td id="price">${{ store_deck.price }}</td>
-                    {% if store_deck.stock %}
-                    <td id="in-stock">In Stock</td>
-                    {% else %}
-                    <td id="out-stock">Out of Stock</td>
-                    {% endif %}
-                </tr>
-                {% endfor %}
-            </table>
-            <br>
-        </div>
-        {% endfor %}
+    {% for deck in decks %}
+    <div class="container">
+        <table class="deck">
+            <tr>
+                <th colspan="3">{{ deck.set }} - {{ deck.name }}</th>
+            </tr>
+            <tr>
+                <td><b>Store</b></td>
+                <td><b>Price</b></td>
+                <td><b>Stock</b></td>
+            </tr>
+            {% for store_deck in deck.store_decks %}
+            <tr class="store-deck">
+                <td class="store"><a href="{{ store_deck.link }}">{{ store_deck.store['name'] }}</a></td>
+                <td class="price">${{ store_deck.price }}</td>
+                {% if store_deck.stock %}
+                <td class="in-stock">In Stock</td>
+                {% else %}
+                <td class="out-stock">Out of Stock</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
     </div>
+    {% endfor %}
+    <script src="filter.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 # Commander 2015 and older?
 # STORES
 # hardcoded last page for gamebridge
+# mk kards
 # ALL-IN-ONE LISTINGS
 # L.A. mood (no)
 # derpycards (no)
@@ -9,11 +10,9 @@
 # ONLINE SHOPPING AVAILABLE SOON (TM)
 # arkain hobbies and games
 # HTML
-# two columns
-# filter/search/sort
-# navigation arrows (up to top down to bottom)
+# navigation arrows (up to top)
 # price history (lol)
-# search singles? (lol)
+# search singles (lol)
 # GITHUB
 # branch deployment?
 
@@ -177,33 +176,35 @@ def fetch(store):
         # clunky
         if 'scroll' in store:
             html = scroll()
-        while elem is not None and 'scroll' not in store:
-            # Do we have to click for next page?
-            if 'html_next' in store:
-                click(i)
-            else:
-                # Some pages/searches/etc have "page=" in the middle of the url
-                if "page=" in store['page']:
-                    next_page = store['page'].replace("page=", f"page={str(i)}")
-                elif "pg=" in store['page']:
-                    next_page = store['page'].replace("pg=", f"pg={str(i)}")
-                driver.get(next_page)
+        else:
+            while elem is not None:
+                # Do we have to click for next page?
+                if 'html_next' in store:
+                    click(i)
+                else:
+                    # Some pages/searches/etc have "page=" in the middle of the url
+                    if "page=" in store['page']:
+                        next_page = store['page'].replace("page=", f"page={str(i)}")
+                    elif "pg=" in store['page']:
+                        next_page = store['page'].replace("pg=", f"pg={str(i)}")
+                    driver.get(next_page)
 
-            # Wait for up to 5 seconds until the element is present
-            elem = WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((
-                    By.XPATH, format_xpath(store['html_items_tag'], store['html_items_attr'], store['html_items']))))
-            print(elem)
-            # Wait 5 seconds to be courteous.
-            time.sleep(5)
+                # Wait for up to 5 seconds until the element is present
+                xpath = format_xpath(store['html_items_tag'], store['html_items_attr'], store['html_items'])
+                elem = WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((
+                        By.XPATH, xpath)))
+                print(elem)
+                # Wait 5 seconds to be courteous.
+                time.sleep(5)
 
-            # Trim everything before the first item.
-            html += trim(driver.page_source, elem)
-            i += 1
-            # Hardcoded last page for difficult sites.
-            if 'last_page' in store:
-                if i > int(store['last_page']):
-                    break
+                # Trim everything before the first item.
+                html += trim(driver.page_source, elem)
+                i += 1
+                # Hardcoded last page for difficult sites.
+                if 'last_page' in store:
+                    if i > int(store['last_page']):
+                        break
     except TimeoutException:
         print("No more pages or no items found.")
     finally:
@@ -521,8 +522,8 @@ def write_html(decks):
 
 data = read_data()
 decks = make_decks(data)
-# for store in data['stores']:
-#     fetch(store)
+for store in data['stores']:
+    fetch(store)
 # fetch(data['stores'][18])
 # fetch_one(data['stores'][4])
 for store in data['stores']:
